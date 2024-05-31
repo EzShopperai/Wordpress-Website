@@ -1,0 +1,71 @@
+<wpml-config>
+    <admin-texts>
+        <key name="sasby">
+            <key name="sidetext_label" />
+            <key name="sidetext" />            
+            <key name="address_label" />
+            <key name="address" />
+            <key name="email_label" />
+            <key name="email" />
+            <key name="phone_label" />
+            <key name="phone" />
+            <key name="opening_label" />
+            <key name="opening" />                       
+            <key name="social_label" />
+            <key name="online_button_text" />   
+            <key name="login_text" />
+            <key name="offer_text" />
+            <key name="footer_number_label" />
+            <key name="footer_number" />
+            <key name="footer_address" />
+            <key name="footer_email_label" />
+            <key name="footer_email" />
+            <key name="copyright_text" />
+            <key name="scroll_indicator_position" />
+            <key name="related_title" />
+            <key name="team_contact_title" />
+            <key name="team_related_title" />
+            <key name="team_related_subtitle" />
+            <key name="team_related_shadowtitle" />
+            <key name="portfolio_related_title" />
+            <key name="portfolio_related_subtitle" />
+            <key name="portfolio_related_shadowtitle" />
+            <key name="error_text1" />
+            <key name="error_text2" />
+            <key name="error_buttontext" />            
+            <key name="team_slug" />
+            <key name="portfolio_slug" />
+            <key name="team_cat_slug" />
+            <key name="portfolio_cat_slug" />
+        </key>
+    </admin-texts>
+	<custom-types>
+        <custom-type translate="1">sasby_team</custom-type>
+        <custom-type translate="1">sasby_portfolio</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">sasby_team_category</taxonomy>
+        <taxonomy translate="1">sasby_portfolio_category</taxonomy>
+    </taxonomies>
+	<custom-fields>
+       <custom-field action="translate">sasby_youtube_link</custom-field>
+       <custom-field action="translate">sasby_team_position</custom-field>
+       <custom-field action="translate">sasby_team_website</custom-field>
+       <custom-field action="translate">sasby_team_email</custom-field>
+       <custom-field action="translate">sasby_team_phone</custom-field>
+       <custom-field action="translate">sasby_team_address</custom-field>
+       <custom-field action="translate">sasby_team_socials_header</custom-field>
+       <custom-field action="translate">sasby_team_skill_info</custom-field>
+       <custom-field action="translate">skill_name</custom-field>
+       <custom-field action="translate">skill_value</custom-field>
+       <custom-field action="translate">skill_color</custom-field>       
+       <custom-field action="translate">sasby_team_contact</custom-field>
+       <custom-field action="translate">sasby_team_contact_form</custom-field>
+       <custom-field action="translate">sasby_project_title</custom-field>
+       <custom-field action="translate">sasby_project_text</custom-field>
+       <custom-field action="translate">sasby_project_client</custom-field>
+       <custom-field action="translate">sasby_project_start</custom-field>
+       <custom-field action="translate">sasby_project_end</custom-field>
+       <custom-field action="translate">sasby_project_web</custom-field>
+   </custom-fields>
+</wpml-config>

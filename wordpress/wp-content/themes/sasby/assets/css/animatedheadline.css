@@ -1,0 +1,49 @@
+.ah-headline.clip span,
+.ah-headline.loading-bar span,
+.ah-headline.slide span {
+    padding: 0.2em 0;
+    display: inline-block;
+}
+.ah-headline.clip .ah-words-wrapper,
+.ah-headline.loading-bar .ah-words-wrapper,
+.ah-headline.slide .ah-words-wrapper,
+.ah-headline.type .ah-words-wrapper {
+    overflow: hidden;
+    vertical-align: top;
+}
+.ah-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
+.ah-words-wrapper p {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    left: 0;
+    top: 0;
+}
+.ah-words-wrapper p.is-visible {
+    position: relative;
+}
+.no-js .ah-words-wrapper p {
+    opacity: 0;
+}
+.no-js .ah-words-wrapper p.is-visible {
+    opacity: 1;
+}
+.ah-headline.clip .ah-words-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #363636;
+}
+.ah-headline.clip p {
+    opacity: 0;
+}
+.ah-headline.clip p.is-visible {
+    opacity: 1;
+}
